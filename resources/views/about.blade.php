@@ -1,2 +1,9 @@
-<h1>About blog</h1>
-<p>experiments with Laravel</p>
+@extends('layouts.app')
+
+@section('title', 'About')
+
+@section('header', 'About page')
+
+@section('content')
+    <p>Laravel experiments</p>
+@endsection

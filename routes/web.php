@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('about', function () {
-    return view('about');
+    $tags = ['learn', 'programming', 'php', 'oop'];
+    return view('about', ['tags' => $tags]);
 });
